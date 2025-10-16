@@ -1417,4 +1417,5 @@ candidate_data_summary = analyze_all_candidate_position(candidate_data_test, ann
 # save_final_candidates(final_candidates, output_path)
 
 extract_reference_allele(candidate_data_summary, reference_genome, annotation_sorted, output_path, extend, ref_assembly)
-#
+# p
+print("end")
