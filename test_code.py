@@ -33,7 +33,6 @@ def process_data(input_file):
 
     # Read and process data
     rows = []
-    all_keys = set()
 
     with open(input_file, "r", encoding="utf-8") as f:
         for line in f:
@@ -62,7 +61,6 @@ def process_data(input_file):
                 else:
                     continue
                 row[key] = value
-                all_keys.add(key)
 
             # select column
             keys_to_keep = ['seq_ID', 'type', 'start', 'end', 'strand', 'depth', 'Parent', 'Name',
