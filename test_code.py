@@ -11,7 +11,7 @@ import os
 import glob
 from Bio import SeqIO
 
-############################################################
+################################
 # 1. process depth result data
 def process_data(input_file):
     """
