@@ -1418,4 +1418,3 @@ candidate_data_summary = analyze_all_candidate_position(candidate_data_test, ann
 
 extract_reference_allele(candidate_data_summary, reference_genome, annotation_sorted, output_path, extend, ref_assembly)
 # p
-print("end")
